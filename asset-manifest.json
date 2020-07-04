@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Brand-Quiz/static/css/main.dc0702ce.chunk.css",
+    "main.js": "/Brand-Quiz/static/js/main.d769b267.chunk.js",
+    "main.js.map": "/Brand-Quiz/static/js/main.d769b267.chunk.js.map",
+    "runtime-main.js": "/Brand-Quiz/static/js/runtime-main.02532794.js",
+    "runtime-main.js.map": "/Brand-Quiz/static/js/runtime-main.02532794.js.map",
+    "static/css/2.cbe21caa.chunk.css": "/Brand-Quiz/static/css/2.cbe21caa.chunk.css",
+    "static/js/2.4e3fed7f.chunk.js": "/Brand-Quiz/static/js/2.4e3fed7f.chunk.js",
+    "static/js/2.4e3fed7f.chunk.js.map": "/Brand-Quiz/static/js/2.4e3fed7f.chunk.js.map",
+    "index.html": "/Brand-Quiz/index.html",
+    "precache-manifest.8adc989c5a7c7886417e09b6a79c19f8.js": "/Brand-Quiz/precache-manifest.8adc989c5a7c7886417e09b6a79c19f8.js",
+    "service-worker.js": "/Brand-Quiz/service-worker.js",
+    "static/css/2.cbe21caa.chunk.css.map": "/Brand-Quiz/static/css/2.cbe21caa.chunk.css.map",
+    "static/css/main.dc0702ce.chunk.css.map": "/Brand-Quiz/static/css/main.dc0702ce.chunk.css.map",
+    "static/media/styles.scss": "/Brand-Quiz/static/media/background.a5a8d21a.jpg",
+    "static/media/button-sound.mp3": "/Brand-Quiz/static/media/button-sound.32194199.mp3",
+    "static/media/correct-answer.mp3": "/Brand-Quiz/static/media/correct-answer.ee6aadae.mp3",
+    "static/media/materialdesignicons.min.css": "/Brand-Quiz/static/media/materialdesignicons-webfont.a32fa1f2.eot",
+    "static/media/wrong-answer.mp3": "/Brand-Quiz/static/media/wrong-answer.c7106542.mp3"
+  }
+}

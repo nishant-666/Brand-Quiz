@@ -1,0 +1,47 @@
+{
+  "homepage": "https://nishant-666.github.io/Brand-Quiz",
+  "name": "brand-quiz",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@mdi/font": "^4.4.95",
+    "classnames": "^2.2.6",
+    "gh-pages": "^3.1.0",
+    "materialize-css": "^1.0.0",
+    "node-sass": "^4.14.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-helmet": "^5.2.1",
+    "react-router-dom": "^5.1.0",
+    "react-scripts": "3.1.2",
+    "semantic-ui-react": "^0.88.2"
+  },
+  "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "A Brand Quiz app",
+  "main": "index.js",
+  "repository": "https://github.com/nishant-666/Brand-Quiz",
+  "author": "Nishant",
+  "license": "MIT"
+}

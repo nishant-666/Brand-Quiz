@@ -1,0 +1,176 @@
+[
+    {
+        "question": "Which Country does the company Readgear belongs to?",
+        "optionA": "China",
+        "optionB": "United States of America",
+        "optionC": "Indonesia",
+        "optionD": "Japan",
+        "answer": "United States of America"
+    },
+
+    {
+        "question": "Which Country created Nokia?",
+        "optionA": "South Korea",
+        "optionB": "India",
+        "optionC": "Finland",
+        "optionD": "United Kingdom",
+        "answer": "Finland"
+    },
+
+    {
+        "question": "Which city does Phillips belong to?",
+        "optionA": "Eindhoven",
+        "optionB": "Warshaw",
+        "optionC": "Cardiff",
+        "optionD": "Rio de Janeiro",
+        "answer": "Eindhoven"
+    },
+
+    {
+        "question": "Who created Apple and where?",
+        "optionA": "Steve Wozniak, California",
+        "optionB": "Bill Gates, United States",
+        "optionC": "Nikola Tesla, United Kingdom",
+        "optionD": "Munna Bhai, Mumbai",
+        "answer": "Steve Wozniak, California"
+    },
+
+    {
+        "question": "Where was Karbonn created?",
+        "optionA": "Bangalore",
+        "optionB": "China",
+        "optionC": "North Korea",
+        "optionD": "São Paulo",
+        "answer": "Bangalore"
+    },
+
+    {
+        "question": "Who is the founder of Coco-Cola Company? And what's the origin?",
+        "optionA": "Micheal Shanks, Chulaak",
+        "optionB": "Stephen King, Maine",
+        "optionC": "John C Riley, Xandar",
+        "optionD": "Dr John S Pemberton, Atlanta",
+        "answer": "Dr John S Pemberton, Atlanta"
+    },
+
+    {
+        "question": "Where and when was Dettol created?",
+        "optionA": "Buenos Aires, 1875",
+        "optionB": "U.K., 1876",
+        "optionC": "Los Angeles, 1867",
+        "optionD": "Paris, 1877",
+        "answer": "U.K., 1876"
+    },
+
+    {
+        "question": "Let's say Shailesh used to work in Shell. The manager asked him the company's origin country. What did Shailesh answered?",
+        "optionA": "United States",
+        "optionB": "United Kingdom",
+        "optionC": "Vietnam",
+        "optionD": "South Africa",
+        "answer": "United States"
+    },
+
+    {
+        "question": "What happened at Minneapolis, Minnesota, United States, 1992?",
+        "optionA": "Target Corporation was Founded",
+        "optionB": "Cybernetico Corporation was Founded",
+        "optionC": "Establishment of Clocks and Clicks",
+        "optionD": "Operation Stargate",
+        "answer": "Target Corporation was Founded"
+    },
+
+    {
+        "question": "Where was Casio created?",
+        "optionA": "Tokyo",
+        "optionB": "Qingdao",
+        "optionC": "Qarth",
+        "optionD": "Hong Kong",
+        "answer": "Tokyo"
+    },
+
+    {
+        "question": "GAP is an ____ ",
+        "optionA": "Mauritian clothing company",
+        "optionB": "Indian clothing company",
+        "optionC": "American clothing company",
+        "optionD": "U.K.'s clothing company",
+        "answer": "American clothing company"
+    },
+
+    {
+        "question": "Where was Disney born?",
+        "optionA": "Los Angeles",
+        "optionB": "New York City",
+        "optionC": "Chicago",
+        "optionD": "Miami",
+        "answer": "Los Angeles"
+    },
+
+    {
+        "question": "The origin country of United Colors of Benetton is ___________",
+        "optionA": "Treviso",
+        "optionB": "Belo Horizonte",
+        "optionC": "Madrid",
+        "optionD": "Riyadh",
+        "answer": "Treviso"
+    },
+
+    {
+        "question": "The founded of FedEx is Frederick W. Smith. Where did he create the company?",
+        "optionA": "Paris",
+        "optionB": "New York",
+        "optionC": "Tennessee",
+        "optionD": "Toronto",
+        "answer": "Tennessee"
+    },
+
+    {
+        "question": "The origin of Flying Machine?",
+        "optionA": "Tel Aviv",
+        "optionB": "United Kingdom",
+        "optionC": "India",
+        "optionD": "Berlin",
+        "answer": "India"
+    },
+    {
+        "question": "Where was Toei created?",
+        "optionA": "Wenzhou",
+        "optionB": "Medellin",
+        "optionC": "Tokyo",
+        "optionD": "Nagoya",
+        "answer": "Tokyo"
+    },
+    {
+        "question": "Microsoft Word belongs to which place?",
+        "optionA": "Bakersfield",
+        "optionB": "Baltimore",
+        "optionC": "Baranovichi",
+        "optionD": "Albuquerque",
+        "answer": "Albuquerque"
+    },
+    {
+        "question": "MDH Spices was created in?",
+        "optionA": "Sialkot",
+        "optionB": "Kalyan",
+        "optionC": "Porbandar",
+        "optionD": "Chennai",
+        "answer": "Sialkot"
+    },
+    {
+        "question": "UC browser offers fast downloads and uploads. Do you know which country it belongs to?",
+        "optionA": "Indonesia",
+        "optionB": "Vietnam",
+        "optionC": "China",
+        "optionD": "Japan",
+        "answer": "China"
+    },
+    {
+        "question": "Where was Nike founded?",
+        "optionA": "Barquisimeto",
+        "optionB": "Oregon",
+        "optionC": "Batam",
+        "optionD": "Beaumont",
+        "answer": "Oregon"
+    }
+]

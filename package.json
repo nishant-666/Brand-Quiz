@@ -1,5 +1,5 @@
 {
-  "homepage": "https://nishant-666.github.io/Brand-Quiz",
+  "homepage": "http://nishant-666.github.io/Brand-Quiz",
   "name": "brand-quiz",
   "version": "0.1.0",
   "private": true,
@@ -17,8 +17,8 @@
     "semantic-ui-react": "^0.88.2"
   },
   "scripts": {
-    "predeploy":"yarn run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

@@ -52,8 +52,15 @@
         "optionD": "Dr John S Pemberton, Atlanta",
         "answer": "Dr John S Pemberton, Atlanta"
     },
-
     {
+        "question": "Nishant loves using Colgate, but he don't even know where it originated. I hope you know the answer.",
+        "optionA": "New Zealand",
+        "optionB": "Australia",
+        "optionC": "America",
+        "optionD": "Taiwan",
+        "answer": "America"
+    },
+    {   
         "question": "Where and when was Dettol created?",
         "optionA": "Buenos Aires, 1875",
         "optionB": "U.K., 1876",
@@ -70,6 +77,14 @@
         "optionD": "South Africa",
         "answer": "United States"
     },
+    {
+        "question": "Where was Sony Ericsson born?",
+        "optionA": "Tokyo, Japan",
+        "optionB": "Argentina, Buenos Aires",
+        "optionC": "Bangladesh, Dhaka",
+        "optionD": "Micronesia, Palikir",
+        "answer": "Tokyo, Japan"
+    },
 
     {
         "question": "What happened at Minneapolis, Minnesota, United States, 1992?",
@@ -79,7 +94,14 @@
         "optionD": "Operation Stargate",
         "answer": "Target Corporation was Founded"
     },
-
+    {
+        "question": "LG was founded at _________",
+        "optionA": "Poland",
+        "optionB": "North Korea",
+        "optionC": "Holland",
+        "optionD": "South Korea",
+        "answer": "South Korea"
+    },
     {
         "question": "Where was Casio created?",
         "optionA": "Tokyo",
@@ -88,16 +110,6 @@
         "optionD": "Hong Kong",
         "answer": "Tokyo"
     },
-
-    {
-        "question": "GAP is an ____ ",
-        "optionA": "Mauritian clothing company",
-        "optionB": "Indian clothing company",
-        "optionC": "American clothing company",
-        "optionD": "U.K.'s clothing company",
-        "answer": "American clothing company"
-    },
-
     {
         "question": "Where was Disney born?",
         "optionA": "Los Angeles",
@@ -107,6 +119,23 @@
         "answer": "Los Angeles"
     },
 
+
+    {
+        "question": "Where was Wonderchef born?",
+        "optionA": "India",
+        "optionB": "Brazil",
+        "optionC": "United States",
+        "optionD": "China",
+        "answer": "India"
+    },
+    {
+        "question": "Nivea is _______",
+        "optionA": "A Italian grooming company",
+        "optionB": "A German personal care company",
+        "optionC": "A Latin personal care company",
+        "optionD": "An Indian health care company",
+        "answer": "A German personal care company"
+    },
     {
         "question": "The origin country of United Colors of Benetton is ___________",
         "optionA": "Treviso",
@@ -172,5 +201,255 @@
         "optionC": "Batam",
         "optionD": "Beaumont",
         "answer": "Oregon"
+    },
+    {
+        "question": "The electrical company Anchor was founded in _______",
+        "optionA": "New Zealand",
+        "optionB": "Belize",
+        "optionC": "Cote d'Ivoire",
+        "optionD": "India",
+        "answer": "New Zealand"
+    },
+    {
+        "question": "The company JPMorgan Chase was founded in _______",
+        "optionA": "New Zealand",
+        "optionB": "Romania",
+        "optionC": "United States",
+        "optionD": "Greece",
+        "answer": "United States"
+    },
+    {
+        "question": "What is the origin country of Alibaba?",
+        "optionA": "Liechtenstein",
+        "optionB": "Italy",
+        "optionC": "China",
+        "optionD": "Yemen",
+        "answer": "China"
+    },
+    {
+        "question": "From where did Nestlé originate from?",
+        "optionA": "Hungary",
+        "optionB": "Timor-Leste",
+        "optionC": "Switzerland",
+        "optionD": "India",
+        "answer": "Switzerland"
+    },
+    {
+        "question": "BNP Paribas belongs to ______ ?",
+        "optionA": "Cuba",
+        "optionB": "India",
+        "optionC": "Samoa",
+        "optionD": "France",
+        "answer": "France"
+    },
+    {
+        "question": "Who was the creator of Pfizer? What is the place of it's origin?",
+        "optionA": "Charles Pfizer, United States",
+        "optionB": "Charles Pfizer, Boston",
+        "optionC": "Charles F. Erhart, Denmark",
+        "optionD": "Charles Pfizer, New Zealand",
+        "answer": "Charles Pfizer, United States"
+    },
+    {
+        "question": "What is the place of origin of Sony?",
+        "optionA": "Mexico",
+        "optionB": "United States",
+        "optionC": "Japan",
+        "optionD": "China",
+        "answer": "Japan"
+    },
+    {
+        "question": "Where was Cigna created?",
+        "optionA": "China",
+        "optionB": "United States",
+        "optionC": "Boilvia",
+        "optionD": "India",
+        "answer": "United States"
+    },
+    {
+        "question": "Mr. X was fired as he didn't even knew the origin of his company IBM? Perhaps you do!",
+        "optionA": "Azerbaijan",
+        "optionB": "United States",
+        "optionC": "Switzerland",
+        "optionD": "Finland",
+        "answer": "United States"
+    },
+    {
+        "question": "Reliance Industries was founded at _______",
+        "optionA": "Sri-Lanka",
+        "optionB": "India",
+        "optionC": "Bangladesh",
+        "optionD": "China",
+        "answer": "India"
+    },
+    {
+        "question": "BMW Group was founded at _______",
+        "optionA": "Germany",
+        "optionB": "Ecuador",
+        "optionC": "Indonesia",
+        "optionD": "United Kingdom",
+        "answer": "Germany"
+    },
+    {
+        "question": "Mr. Ritu Raj just got promoted to Regional Manager of Bank of Baroda and got posted at the origin place of that Bank, that is ________",
+        "optionA": "Baroda, India",
+        "optionB": "Vadodara, India",
+        "optionC": "Girdih, India",
+        "optionD": "Wassepur, India",
+        "answer": "Baroda, India"
+    },
+    {
+        "question": "Oracle was founded at __________",
+        "optionA": "Georgia",
+        "optionB": "India",
+        "optionC": "United States",
+        "optionD": "Spain",
+        "answer": "United States"
+    },
+    {
+        "question": "HSBC Holdings was founded at __________",
+        "optionA": "United Kingdom",
+        "optionB": "Japan",
+        "optionC": "United States",
+        "optionD": "Dairy",
+        "answer": "United Kingdom"
+    },
+    {
+        "question": "AIA Group was created at which of the following?",
+        "optionA": "Switzerland",
+        "optionB": "Hong Kong",
+        "optionC": "Senegal",
+        "optionD": "Dairy",
+        "answer": "Costa Rica"
+    },
+    {
+        "question": "Which of the following compaines is situated in Brazil?",
+        "optionA": "Petrobras",
+        "optionB": "Siemens",
+        "optionC": "Chevron",
+        "optionD": "CITIC",
+        "answer": "Petrobras"
+    },
+    {
+        "question": "Let's say Neetu Singh is the senior executive of American Express. She loves the job as her origin country is the same as the company, that is _________",
+        "optionA": "Poland",
+        "optionB": "Cambodia",
+        "optionC": "United States",
+        "optionD": "Belarus",
+        "answer": "United States"
+    },
+    {
+        "question": "Lets say Raj, Amrit is the manager of Tata Motors and he has struggled a lot while forming his company. His company and he shares the same hometown, that is __________",
+        "optionA": "Patna",
+        "optionB": "India",
+        "optionC": "Bangladesh",
+        "optionD": "None of these",
+        "answer": "India"
+    },
+    {
+        "question": "Bank of Nova Scotia was founded at __________",
+        "optionA": "Austria",
+        "optionB": "New Zealand",
+        "optionC": "Mexico",
+        "optionD": "Canada",
+        "answer": "Canada"
+    },
+    {
+        "question": "AXA Group was founded at __________",
+        "optionA": "Dominica",
+        "optionB": "France",
+        "optionC": "Russia",
+        "optionD": "Rwanda",
+        "answer": "France"
+    },
+    {
+        "question": "Zurich Insurance Group originated at __________",
+        "optionA": "Switzerland",
+        "optionB": "Germany",
+        "optionC": "Brazil",
+        "optionD": "Hong Kong",
+        "answer": "Switzerland"
+    },
+    {
+        "question": "Sneha Prasad is the head development officer of Tata Steel. Where did the company originate by the way?",
+        "optionA": "India",
+        "optionB": "India patnered with England during the British period",
+        "optionC": "India patnered with Japan",
+        "optionD": "India patnered with Portugal",
+        "answer": "India"
+    },
+    {
+        "question": "Sneha Prasad's sister Shweta Prasad, recently joined the LukOil. She has to travel to the origin place of the county, so she took a flight to __________?",
+        "optionA": "France",
+        "optionB": "Finland",
+        "optionC": "Russia",
+        "optionD": "Peru",
+        "answer": "Russia"
+    },
+    {
+        "question": "Boat was founded at _________",
+        "optionA": "Mumbai",
+        "optionB": "New York",
+        "optionC": "Tokyo",
+        "optionD": "Moscow",
+        "answer": "Mumbai"
+    },
+    {
+        "question": "Brookfield Asset Management is the company of __________",
+        "optionA": "Canada",
+        "optionB": "Panama",
+        "optionC": "Cuba",
+        "optionD": "Kigali",
+        "answer": "Canada"
+    },
+    {
+        "question": "AirSial is the company of __________",
+        "optionA": "Sialkot",
+        "optionB": "Punjab",
+        "optionC": "Saudi Arabia",
+        "optionD": "Karachi",
+        "answer": "Sialkot"
+    },
+    {
+        "question": "Mr. Manish Dipankar works as the regional developer at Airbus and it's origin is ________",
+        "optionA": "France",
+        "optionB": "Fiji",
+        "optionC": "United States",
+        "optionD": "Hong Kong",
+        "answer": "France"
+    },
+    {
+        "question": "Puma was founded at ________",
+        "optionA": "Germany",
+        "optionB": "Italy",
+        "optionC": "France",
+        "optionD": "Russia",
+        "answer": "Germany"
+    },
+    {
+        "question": "CD Projekt Red was founded at ________",
+        "optionA": "Warsaw",
+        "optionB": "Prague",
+        "optionC": "Mexico City",
+        "optionD": "London",
+        "answer": "Warsaw"
+    },
+    {
+        "question": "Tanya is the head marketing manager at The Ford Motor Company. What is the origin place?",
+        "optionA": "Valletta",
+        "optionB": "Kingstown",
+        "optionC": "Detroit",
+        "optionD": "Paris",
+        "answer": "Detroit"
+    },
+    {
+        "question": "Tanya's brother, Harsh, is the lead tester of Ferrari. Where is the origin place of Ferrari?",
+        "optionA": "Germany",
+        "optionB": "Italy",
+        "optionC": "Denmark",
+        "optionD": "Singapore",
+        "answer": "Italy"
     }
+    
+
 ]

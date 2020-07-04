@@ -13,13 +13,13 @@ const QuizInstructions = () => (
         <Header size='large'>Quiz Instructions</Header>
         <Card.Content>
         <List bulleted style={{fontSize:16}}>
-            <List.Item>The game has a duration of 6 minutes and ends as soon as your time elapses.</List.Item>
-            <List.Item>Each game consists of 20 questions.</List.Item>
+            <List.Item>Each game consists of 55 questions.</List.Item>
             <List.Item>Each question has four options.</List.Item>
             <List.Item>Select the option which you think is right by clicking it.</List.Item>
-            <List.Item>The timer starts as soon as the game loads.</List.Item>
+            <List.Item>This Quiz is mainly for the knowledge of Brands and their origin place.</List.Item>
+            <List.Item>You won't get any chocolates or trophies after completing the quiz, not even a certificate. </List.Item>
+            <List.Item>Complete the quiz to get your results. </List.Item>
             <List.Item>Do you have what it takes? Let's find out, just click the play button!</List.Item>
-
         </List>
         </Card.Content>
         <Message/>

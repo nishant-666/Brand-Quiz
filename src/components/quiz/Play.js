@@ -108,7 +108,7 @@ class Play extends Component {
     handleQuitButtonClick = () => {
         this.playButtonSound();
         if (window.confirm('Gave up already?')) {
-            this.props.history.push('/play/quizSummary');
+            this.props.history.push('/');
         }
     };
 
@@ -140,7 +140,7 @@ class Play extends Component {
         M.toast({
             html: 'Correct Answer!',
             classes: 'toast-valid',
-            displayLength: 2500
+            displayLength: 2000
         });
         this.setState(prevState => ({
             score: prevState.score + 1,
@@ -161,7 +161,7 @@ class Play extends Component {
         M.toast({
             html: 'Wrong Answer!',
             classes: 'toast-invalid',
-            displayLength: 2500
+            displayLength: 2000
         });
         this.setState(prevState => ({
             wrongAnswers: prevState.wrongAnswers + 1,

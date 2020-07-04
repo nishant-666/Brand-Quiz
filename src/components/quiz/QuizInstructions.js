@@ -17,7 +17,6 @@ const QuizInstructions = () => (
             <List.Item>Each game consists of 20 questions.</List.Item>
             <List.Item>Each question has four options.</List.Item>
             <List.Item>Select the option which you think is right by clicking it.</List.Item>
-            <List.Item>Feel free to quit the game at any time.</List.Item>
             <List.Item>The timer starts as soon as the game loads.</List.Item>
             <List.Item>Do you have what it takes? Let's find out, just click the play button!</List.Item>
 

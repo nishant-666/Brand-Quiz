@@ -16,10 +16,10 @@ const Home = () => (
                 </Card.Content>
                 <Card.Content>
                 <Link to="/play/instructions">
-                <Button primary> <Icon name='book' />Read Quiz Instructions</Button>
+                <Button primary> <Icon name='book' />Instructions</Button>
                 </Link>
                 <Link to="/play/quiz">
-                <Button primary> <Icon name='play circle outline' />Start Quiz</Button>
+                <Button primary style={{marginTop:10}}> <Icon name='play circle outline' />Start Quiz</Button>
                 </Link>
                 </Card.Content>
             </Card>

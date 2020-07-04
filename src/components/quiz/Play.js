@@ -40,7 +40,7 @@ class Play extends Component {
     componentDidMount () {
         const { questions, currentQuestion, nextQuestion, previousQuestion } = this.state;
         this.displayQuestions(questions, currentQuestion, nextQuestion, previousQuestion);
-        this.startTimer();
+       
     }
 
     componentWillUnmount () {
@@ -108,7 +108,7 @@ class Play extends Component {
     handleQuitButtonClick = () => {
         this.playButtonSound();
         if (window.confirm('Gave up already?')) {
-            this.props.history.push('/');
+            this.props.history.push('/play/quizSummary');
         }
     };
 
@@ -255,36 +255,7 @@ class Play extends Component {
         }
     }
 
-    startTimer = () => {
-        const countDownTime = Date.now() + 360000;
-        this.interval = setInterval(() => {
-            const now = new Date();
-            const distance = countDownTime - now;
-
-            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-            if (distance < 0) {
-                clearInterval(this.interval);
-                this.setState({
-                    time: {
-                        minutes: 0,
-                        seconds: 0
-                    }
-                }, () => {
-                    this.endGame();
-                });
-            } else {
-                this.setState({
-                    time: {
-                        minutes,
-                        seconds,
-                        distance
-                    }
-                });
-            }
-        }, 1000);
-    }
+  
 
     handleDisableButton = () => {
         if (this.state.previousQuestion === undefined || this.state.currentQuestionIndex === 0) {
@@ -309,13 +280,14 @@ class Play extends Component {
     }
 
     endGame = () => {
-        alert('Quiz has eneded!');
+        alert('Quiz has ended!');
         const { state } = this;
         const playerStats = {
             score: state.score,
             numberOfQuestions: state.numberOfQuestions,
             numberOfAnsweredQuestions: state.correctAnswers + state.wrongAnswers,
             correctAnswers: state.correctAnswers,
+            wrongAnswers: state.wrongAnswers,
         };
         setTimeout(() => {
             this.props.history.push('/play/quizSummary', playerStats);
@@ -342,34 +314,29 @@ class Play extends Component {
                 <Card fluid style={{padding:40,width:'100%'}}>
                 <Header size='large'>{currentQuestion.question}</Header>
                 <p>
-                            <span className="left" style={{ float: 'left' }}>{currentQuestionIndex + 1} of {numberOfQuestions}</span>
-                            <p style={{color:'red'}} className={classnames('right valid', {
-                                'warning': time.distance <= 120000,
-                                'invalid': time.distance < 30000
-                            })}>Timer: &nbsp;
-                                {time.minutes}:{time.seconds}
-                            </p>
-                        </p>
-        <Card.Content>
-        <div>
-        <div className="options-container">
-         <Button onClick={this.handleOptionClick} className="option" fluid primary style={{marginTop:20,borderRadius:20}}>{currentQuestion.optionA}</Button>
-         <Button onClick={this.handleOptionClick} className="option" fluid primary style={{marginTop:20,borderRadius:20}}>{currentQuestion.optionB}</Button>
-         <Button onClick={this.handleOptionClick} className="option" fluid primary style={{marginTop:20,borderRadius:20}}>{currentQuestion.optionC}</Button>
-         <Button onClick={this.handleOptionClick} className="option" fluid primary style={{marginTop:20,borderRadius:20}}>{currentQuestion.optionD}</Button>
-         </div>
-    
-        </div>
-        </Card.Content>
-        <Card.Content>
-        <Button.Group>
-            <Button positive id="previous-button" className={classnames('', {'disable': this.state.previousButtonDisabled})}  onClick={this.handleButtonClick} labelPosition='left' icon='left chevron' content='Previous' />
-            <Button positive id="quit-button" onClick={this.handleButtonClick} icon='close' content='Quit' />
-            <Button positive id="next-button" className={classnames('', {'disable': this.state.nextButtonDisabled})} onClick={this.handleButtonClick} labelPosition='right' icon='right chevron' content='Next' />
-        </Button.Group>
-        </Card.Content>
-        </Card>
-        </Container>
+                    <span className="left" style={{ float: 'left' }}>{currentQuestionIndex + 1} of {numberOfQuestions}</span>
+                           
+                </p>
+                    <Card.Content>
+                    <div>
+                    <div className="options-container">
+                    <Button onClick={this.handleOptionClick} className="option" fluid primary style={{marginTop:20,borderRadius:20}}>{currentQuestion.optionA}</Button>
+                    <Button onClick={this.handleOptionClick} className="option" fluid primary style={{marginTop:20,borderRadius:20}}>{currentQuestion.optionB}</Button>
+                    <Button onClick={this.handleOptionClick} className="option" fluid primary style={{marginTop:20,borderRadius:20}}>{currentQuestion.optionC}</Button>
+                    <Button onClick={this.handleOptionClick} className="option" fluid primary style={{marginTop:20,borderRadius:20}}>{currentQuestion.optionD}</Button>
+                    </div>
+                
+                    </div>
+                    </Card.Content>
+                    <Card.Content>
+                    <Button.Group>
+                        <Button positive id="previous-button" className={classnames('', {'disable': this.state.previousButtonDisabled})}  onClick={this.handleButtonClick} labelPosition='left' icon='left chevron' content='Previous' />
+                        <Button positive id="quit-button" onClick={this.handleButtonClick} icon='close' content='Quit' />
+                        <Button positive id="next-button" className={classnames('', {'disable': this.state.nextButtonDisabled})} onClick={this.handleButtonClick} labelPosition='right' icon='right chevron' content='Next' />
+                    </Button.Group>
+                    </Card.Content>
+                    </Card>
+                    </Container>
             </Fragment>
         );
     }

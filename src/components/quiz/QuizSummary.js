@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
-import { List, Card, Container,Button,Icon, Header, Divider } from 'semantic-ui-react'
+import { List, Card, Container,Button,Icon, Header } from 'semantic-ui-react'
 class QuizSummary extends Component {
     constructor (props) {
         super(props);
@@ -11,8 +11,7 @@ class QuizSummary extends Component {
             numberOfAnsweredQuestions: 0,
             correctAnswers: 0,
             wrongAnswers: 0,
-            hintsUsed: 0,
-            fiftyFiftyUsed: 0
+            
         };
     }
 
@@ -25,8 +24,6 @@ class QuizSummary extends Component {
                 numberOfAnsweredQuestions: state.numberOfAnsweredQuestions,
                 correctAnswers: state.correctAnswers,
                 wrongAnswers: state.wrongAnswers,
-                hintsUsed: state.hintsUsed,
-                fiftyFiftyUsed: state.fiftyFiftyUsed
             });
         }
     }
@@ -89,6 +86,7 @@ class QuizSummary extends Component {
         } else {
             stats = (
                 <section>
+                    
                     <Header size='huge'>No Statistics Available!</Header>
                     <Link to="/play/quiz">
                     <Button primary style={{marginTop:20}}> <Icon name='play circle outline' />Take the Quiz!</Button>
